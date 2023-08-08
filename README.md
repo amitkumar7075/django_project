@@ -1,6 +1,3 @@
 # It's admin portal project using django framework.
-#utilities ::--> Framework:            django,
-                 Programming Language: Python(module: Admin),
-                 Databse:              sqlite3
-#Basically it's an admin portal where you logged in as admin or staff member if credential is correct it switches to dashboard with basic features.
-#After logged in,features : change password,add user,add group,permissions options. 
+Welcome to the Admin Portal project built using the Django framework and Python programming language. This portal serves as an administrative dashboard that enables authorized personnel to manage users, groups, and permissions efficiently. The project utilizes the SQLite3 database for data storage.
+
