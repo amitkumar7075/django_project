@@ -1,0 +1,17 @@
+### Configuration
+
+1. In the `settings.py` file, ensure that the `DATABASES` configuration is set to use the SQLite3 database. The default configuration should be:
+
+   python
+   DATABASES = {
+       'default': {
+           'ENGINE': 'django.db.backends.sqlite3',
+           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+       }
+   }
+   
+
+2. Run the following command to apply migrations and set up the initial database:
+
+   
+   python manage.py migrate
